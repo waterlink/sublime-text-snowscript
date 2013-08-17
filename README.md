@@ -19,7 +19,7 @@ cd ~/.config/sublime-text-2/Packages
 git clone git@github.com:waterlink/sublime-text-snowscript Snow
 ```
 
-### Bootstrapping Snowscript
+### Bootstrapping Snowscript (Ubuntu)
 
 ```shell
 cd ~/.config/sublime-text-*/Packages/Snow
