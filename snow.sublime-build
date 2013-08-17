@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "snow-compile ${file} > ${file_path}/${file_base_name}.php",
+	"selector": "source.snow"
+}

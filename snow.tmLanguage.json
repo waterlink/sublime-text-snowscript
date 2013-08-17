@@ -1,0 +1,115 @@
+{ "name": "SnowScript",
+  "scopeName": "source.snow",
+  "fileTypes": ["snow"],
+  "patterns": [
+    {
+      "match": "\\bclass +([A-Z][A-Za-z0-9_]*)",
+      "name": "keyword.source.snow",
+      "captures": {
+        "1": { "name": "storage.type.class.snow" }
+      }
+    },
+    {
+      "match": "<-",
+      "name": "keyword.operator.snow"
+    },
+    {
+      "match": "\\b([a-z0-9_]+) *\\(([^\\)]*)\\)",
+      "name": "keyword.source.snow",
+      "captures": {
+        "1": { "name": "entity.name.function.snow" },
+        "2": { "name": "variable.parameter.function.snow" }
+      }
+    },
+    {
+      "match": "\\b([A-Z][A-Za-z0-9_]*) *\\(([^\\)]*)\\)",
+      "name": "keyword.source.snow",
+      "captures": {
+        "1": { "name": "storage.type.class.snow" },
+        "2": { "name": "variable.parameter.function.snow" }
+      }
+    },
+    {
+      "match": "\\bfn +([a-z0-9_]+) *$",
+      "name": "keyword.source.snow",
+      "captures": {
+        "1": { "name": "entity.name.function.snow" }
+      }
+    },
+    {
+      "match": "\\bfn\\b",
+      "name": "keyword.source.snow",
+    },
+    {
+      "match": "([A-Z][A-Za-z0-9_]*)\\.\\.",
+      "name": "keyword.operator.snow",
+      "captures": {
+        "1": { "name": "storage.type.class.snow" }
+      }
+    },
+    {
+      "match": "[\\.=\\+\\-*/<>,]",
+      "name": "keyword.operator.snow"
+    },
+    {
+      "match": "\\bparent\\b",
+      "name": "storage.type.class.snow"
+    },
+    {
+      "match": "[\\(\\)]",
+      "name": "keyword.operator.snow"
+    },
+    {
+      "match": "\\b(or|and|not|mod)\\b",
+      "name": "keyword.operator.snow"
+    },
+    {
+      "match": "\\b(if|then|elif|else|for|while|in)\\b",
+      "name": "keyword.source.snow"
+    },
+    {
+      "match": "\\b(true|false|null)\\b",
+      "name": "constant.language.boolean.true.snow"
+    },
+    {
+      "match": "\\b(die|echo)\\b",
+      "name": "keyword.source.snow"
+    },
+    {
+      "begin": "\"",
+      "patterns": [
+        {
+          "match": "\\{[^\\}]*\\}",
+          "name": "constant.language.boolean.false.snow"
+        },
+      ],
+      "end": "\"",
+      "name": "string.quoted.double.snow"
+    },
+    {
+      "begin": "'",
+      "end": "'",
+      "name": "string.quoted.single.snow"
+    },
+    {
+      "match": "extends +([A-Z][A-Za-z0-9_]*)",
+      "name": "keyword.operator.snow",
+      "captures": {
+        "1": { "name": "storage.type.class.snow" }
+      }
+    },
+    {
+      "match": "\\#[^$]*$",
+      "name": "comment.snow"
+    },
+    {
+      "match": "\\bto\\b",
+      "name": "keyword.source.snow"
+    },
+    {
+      "match": "\\b[0-9]+\\b",
+      "name": "constant.numeric.snow"
+    }
+  ],
+  "uuid": "d5a82620-3a9b-4d73-ad05-f1032f5bf137"
+}
