@@ -54,11 +54,4 @@ syntax highlighting for other file types select "View/Syntax/Snowscript" in
 the menu. 
 
 To build Snowscript to php select "Tools/Build System/snow" in the menu and
-select "Tools/Build" (F7/⌘B).
-
-## Install Snowcript on Ubuntu
-
-```shell
-cd [INSTALL_FOLDER]
-./install-snow
-```
+then "Tools/Build" (F7/⌘B).
