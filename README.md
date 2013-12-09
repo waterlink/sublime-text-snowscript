@@ -22,7 +22,7 @@ git clone https://github.com/runekaagaard/sublime-text-snowscript.git Snow
 #### OSX
 
 ```shell
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone https://github.com/runekaagaard/sublime-text-snowscript.git Snow
 ```
 
