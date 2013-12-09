@@ -1,4 +1,5 @@
 {
-	"shell_cmd": "snow-compile ${file} > ${file_path}/${file_base_name}.php",
-	"selector": "source.snow"
+	"cmd": "snow-compile ${file} > ${file_path}/${file_base_name}.php && echo 'OK' || echo 'Compile error'",
+	"selector": "source.snow",
+    "shell": true
 }
