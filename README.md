@@ -1,7 +1,9 @@
 sublime-text-snowscript
 =======================
 
-- Syntax higlighting for Snowscript in Sublime Text 2+3 and other TextMate 
+- Syntax higlighting for 
+  [Snowscript](https://github.com/runekaagaard/snowscript) in Sublime Text 2+3 
+  and other TextMate 
   bundle compatible editors.
 - Build Snowscript to php from inside Sublime Text 2+3.
 - Install script that installs Snowscript on Ubuntu.
